@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/back" />
+
+    <TextView
+        android:id="@+id/score_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="SCORE:"
+        android:textColor="#673AB7"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/time_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:padding="16dp"
+        android:text="TİME:"
+        android:textColor="#673AB7"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+    <GridLayout
+        android:id="@+id/balloon_grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/score_textview"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:columnCount="5"
+        android:padding="16dp"
+
+        android:rowCount="7">
+
+        <ImageView
+            android:id="@+id/Pink1"
+            android:layout_width="68dp"
+            android:layout_height="70dp"
+            android:layout_row="3"
+            android:layout_column="4"
+            app:srcCompat="@drawable/pink"
+            android:onClick="tık" />
+
+        <ImageView
+            android:id="@+id/Pink2"
+            android:layout_width="68dp"
+            android:layout_height="70dp"
+            android:layout_row="6"
+            android:layout_column="0"
+            app:srcCompat="@drawable/pink"
+            android:onClick="tık" />
+
+        <ImageView
+            android:id="@+id/Pink3"
+            android:layout_width="68dp"
+            android:layout_height="70dp"
+            android:layout_row="3"
+            android:layout_column="0"
+            app:srcCompat="@drawable/pink"
+            android:onClick="tık"
+            />
+
+        <ImageView
+            android:id="@+id/Blue1"
+            android:layout_width="68dp"
+            android:layout_height="70dp"
+            android:layout_row="2"
+            android:layout_column="1"
+            app:srcCompat="@drawable/blue"
+            android:onClick="tık"
+            />
+
+        <ImageView
+            android:id="@+id/Blue2"
+            android:layout_width="68dp"
+            android:layout_height="70dp"
+            android:layout_row="4"
+            android:layout_column="4"
+            app:srcCompat="@drawable/blue"
+            android:onClick="tık"
+            />
+
+        <ImageView
+            android:id="@+id/Blue3"
+            android:layout_width="68dp"
+            android:layout_height="70dp"
+            android:layout_row="0"
+            android:layout_column="4"
+            app:srcCompat="@drawable/blue"
+            android:onClick="tık"
+            />
+
+        <ImageView
+            android:id="@+id/Yellow1"
+            android:layout_width="68dp"
+            android:layout_height="70dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            app:srcCompat="@drawable/yellow"
+            android:onClick="tık"
+            />
+
+        <ImageView
+            android:id="@+id/Yellow2"
+            android:layout_width="68dp"
+            android:layout_height="70dp"
+            android:layout_row="3"
+            android:layout_column="3"
+            app:srcCompat="@drawable/yellow"
+            android:onClick="tık"
+            />
+
+        <ImageView
+            android:id="@+id/Yellow3"
+            android:layout_width="68dp"
+            android:layout_height="70dp"
+            android:layout_row="6"
+            android:layout_column="2"
+            app:srcCompat="@drawable/yellow"
+            android:onClick="tık"
+            />
+
+        <ImageView
+            android:id="@+id/Green1"
+            android:layout_width="68dp"
+            android:layout_height="70dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            app:srcCompat="@drawable/green"
+            android:onClick="tık"
+            />
+
+        <ImageView
+            android:id="@+id/Green2"
+            android:layout_width="68dp"
+            android:layout_height="70dp"
+            android:layout_row="4"
+            android:layout_column="0"
+            app:srcCompat="@drawable/green"
+            android:onClick="tık"
+            />
+
+        <ImageView
+            android:id="@+id/Green3"
+            android:layout_width="68dp"
+            android:layout_height="70dp"
+            android:layout_row="5"
+            android:layout_column="4"
+            app:srcCompat="@drawable/green"
+            android:onClick="tık"
+            />
+
+        <ImageView
+            android:id="@+id/Red1"
+            android:layout_width="68dp"
+            android:layout_height="70dp"
+            android:layout_row="2"
+            android:layout_column="0"
+            app:srcCompat="@drawable/red"
+            android:onClick="tık"
+            />
+
+        <ImageView
+            android:id="@+id/Red2"
+            android:layout_width="68dp"
+            android:layout_height="70dp"
+            android:layout_row="6"
+            android:layout_column="4"
+            app:srcCompat="@drawable/red"
+            android:onClick="tık"
+            />
+
+        <ImageView
+            android:id="@+id/Red3"
+            android:layout_width="68dp"
+            android:layout_height="70dp"
+            android:layout_row="1"
+            android:layout_column="3"
+            app:srcCompat="@drawable/red"
+            android:onClick="tık"
+            />
+
+        <ImageView
+            android:id="@+id/Orange1"
+            android:layout_width="68dp"
+            android:layout_height="70dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            app:srcCompat="@drawable/orange"
+            android:onClick="tık"
+            />
+
+        <ImageView
+            android:id="@+id/Orange2"
+            android:layout_width="68dp"
+            android:layout_height="70dp"
+            android:layout_row="4"
+            android:layout_column="1"
+            app:srcCompat="@drawable/orange"
+            android:onClick="tık"
+            />
+
+        <ImageView
+            android:id="@+id/Orange3"
+            android:layout_width="68dp"
+            android:layout_height="70dp"
+            android:layout_row="2"
+            android:layout_column="4"
+            app:srcCompat="@drawable/orange"
+            android:onClick="tık"
+            />
+
+        <ImageView
+            android:id="@+id/Green2_1"
+            android:layout_width="68dp"
+            android:layout_height="70dp"
+            android:layout_row="1"
+            android:layout_column="2"
+            app:srcCompat="@drawable/green2"
+            android:onClick="tık"
+            />
+
+        <ImageView
+            android:id="@+id/Green2_2"
+            android:layout_width="68dp"
+            android:layout_height="70dp"
+            android:layout_row="6"
+            android:layout_column="1"
+            app:srcCompat="@drawable/green2"
+            android:onClick="tık"
+            />
+
+        <ImageView
+            android:id="@+id/Green2_3"
+            android:layout_width="68dp"
+            android:layout_height="70dp"
+            android:layout_row="2"
+            android:layout_column="3"
+            app:srcCompat="@drawable/green2"
+            android:onClick="tık"
+            />
+
+        <ImageView
+            android:id="@+id/Purple1"
+            android:layout_width="68dp"
+            android:layout_height="70dp"
+            android:layout_row="4"
+            android:layout_column="3"
+            app:srcCompat="@drawable/purple"
+            android:onClick="tık"
+            />
+
+        <ImageView
+            android:id="@+id/Purple2"
+            android:layout_width="68dp"
+            android:layout_height="70dp"
+            android:layout_row="2"
+            android:layout_column="2"
+            app:srcCompat="@drawable/purple"
+            android:onClick="tık"
+            />
+
+        <ImageView
+            android:id="@+id/Purple3"
+            android:layout_width="68dp"
+            android:layout_height="70dp"
+            android:layout_row="5"
+            android:layout_column="0"
+            app:srcCompat="@drawable/purple"
+            android:onClick="tık"
+            />
+
+        <ImageView
+            android:id="@+id/Pink2_1"
+            android:layout_width="68dp"
+            android:layout_height="70dp"
+            android:layout_row="5"
+            android:layout_column="3"
+            app:srcCompat="@drawable/pink2"
+            android:onClick="tık"
+            />
+
+        <ImageView
+            android:id="@+id/Pink2_2"
+            android:layout_width="68dp"
+            android:layout_height="70dp"
+            android:layout_row="3"
+            android:layout_column="2"
+            app:srcCompat="@drawable/pink2"
+            android:onClick="tık"
+            />
+
+        <ImageView
+            android:id="@+id/Pink2_3"
+            android:layout_width="68dp"
+            android:layout_height="70dp"
+            android:layout_row="0"
+            android:layout_column="3"
+            app:srcCompat="@drawable/pink2"
+            android:onClick="tık"
+            />
+
+    </GridLayout>
+
+
+</RelativeLayout>

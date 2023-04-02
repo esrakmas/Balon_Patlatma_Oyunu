@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Balon Patlatma Oyunu</string>
+    <string name="balon_patlatma_oyunu">BALON PATLATMA OYUNU</string>
+    <string name="start_balloon_description" />
+    <string name="basla">BAŞLA</string>
+    <string name="oyun_bitti">OYUN BİTTİ</string>
+    <string name="skor">skor</string>
+    <string name="tekrar_oyna">TEKRAR OYNA</string>
+    <string name="string_score_text">string/score_text</string>
+    <string name="string_time_text">string/time_text</string>
+</resources>
